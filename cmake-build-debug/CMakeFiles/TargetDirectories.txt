@@ -1,0 +1,3 @@
+/home/azaka/CLionProjects/autofilesorter/cmake-build-debug/CMakeFiles/autofilesorter.dir
+/home/azaka/CLionProjects/autofilesorter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/azaka/CLionProjects/autofilesorter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
