@@ -9,12 +9,13 @@
 
 namespace fs = std::filesystem;
 
-int sort_files() {
+void sort_files() {
     const std::string path = "./Downloads";
 
     if (!fs::exists(path)) {
         std::cout << "Folder not found!" << std::endl;
-        return 1;
+        fs::create_directory(path);
+        return;
     }
 
     for (const auto& entry : fs::directory_iterator(path)) {
@@ -37,6 +38,4 @@ int sort_files() {
             std::cout << "Moved: " << old_path.filename() << " -> " << target_folder << std::endl;
         }
     }
-
-    return 0;
 }

@@ -6,6 +6,6 @@
 #define AUTOFILESORTER_FILE_SORTER_H
 
 
-int sort_files();
+void sort_files();
 
 #endif //AUTOFILESORTER_FILE_SORTER_H

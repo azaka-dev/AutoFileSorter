@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/autofilesorter.dir/link.d CMakeFiles/autofilesorter.dir/main.cpp.o "CMakeFiles/autofilesorter.dir/src/file-sorter/file_sorter.cpp.o" -o autofilesorter
